@@ -1,0 +1,1208 @@
+[
+  {
+    "event_id": "b0fb353f46e94178b3dc94542415a872",
+    "sent_at": "2022-02-03T06:58:11.868Z",
+    "sdk": {
+      "name": "sentry.javascript.angular",
+      "version": "6.16.1"
+    }
+  },
+  {
+    "type": "transaction",
+    "sample_rates": [
+      {
+        "id": "client_rate",
+        "rate": 1
+      }
+    ]
+  },
+  {
+    "contexts": {
+      "trace": {
+        "op": "navigation",
+        "span_id": "9c8638e03e74f07c",
+        "tags": {
+          "finishReason": "idleTimeout",
+          "effectiveConnectionType": "4g",
+          "deviceMemory": "8",
+          "hardwareConcurrency": "8"
+        },
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      }
+    },
+    "spans": [
+      {
+        "description": "/tracknet/live-tracking",
+        "op": "ui.angular.routing",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "bf95c52e74e79c82",
+        "start_timestamp": 1643871490.71896,
+        "tags": {
+          "routing.instrumentation": "@sentry/angular",
+          "url": "/tracknet/live-tracking",
+          "navigationTrigger": "imperative"
+        },
+        "timestamp": 1643871490.850795,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/src_app_tracknet_live-tracking_live-tracking_module_ts-es2015.b6db06549d5031cf84b3.js",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "81e236fd4c423791",
+        "start_timestamp": 1643871490.7224,
+        "timestamp": 1643871490.72454,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/live_tracking1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "982c484711bd7d4e",
+        "start_timestamp": 1643871490.756095,
+        "timestamp": 1643871490.76206,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/shipment1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "afbf72d1d72e5444",
+        "start_timestamp": 1643871490.756495,
+        "timestamp": 1643871490.76354,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/consignment1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "b0b8fe7280352d82",
+        "start_timestamp": 1643871490.75684,
+        "timestamp": 1643871490.764675,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/trip_template2.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "aebb23d350f5c733",
+        "start_timestamp": 1643871490.7571,
+        "timestamp": 1643871490.7647052,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/dropdown.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "8e9cbfef4c4d383e",
+        "start_timestamp": 1643871490.75734,
+        "timestamp": 1643871490.76473,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/Contract-gray.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "9872a7146703d84b",
+        "start_timestamp": 1643871490.75764,
+        "timestamp": 1643871490.76475,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/Sales-gray.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a99cce97939f122b",
+        "start_timestamp": 1643871490.757905,
+        "timestamp": 1643871490.76478,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/load-builder(gray).svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "9b8e40ede751185b",
+        "start_timestamp": 1643871490.75815,
+        "timestamp": 1643871490.765875,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/dispatch-gray.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "8d7b84bc19b261c9",
+        "start_timestamp": 1643871490.758375,
+        "timestamp": 1643871490.765905,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/bidding-gray.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a1173de484fe6420",
+        "start_timestamp": 1643871490.758605,
+        "timestamp": 1643871490.76594,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/yard-gray.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "ba3ce859e870ad2c",
+        "start_timestamp": 1643871490.758835,
+        "timestamp": 1643871490.765965,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/Purchase-gray.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a0ac082aad54bb7d",
+        "start_timestamp": 1643871490.75907,
+        "timestamp": 1643871490.7660198,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/Vehicle_running2.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "99fc00540b6d64d5",
+        "start_timestamp": 1643871490.759385,
+        "timestamp": 1643871490.7660751,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/no_image.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "997ebc6ddb707194",
+        "start_timestamp": 1643871490.759625,
+        "timestamp": 1643871490.7660449,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/vehicle_1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "bdbf333648c98c53",
+        "start_timestamp": 1643871490.75994,
+        "timestamp": 1643871490.766115,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/driver_1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "952ecd0ea0fdaff0",
+        "start_timestamp": 1643871490.76016,
+        "timestamp": 1643871490.766145,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/device_1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "8afa26e9c9c673ba",
+        "start_timestamp": 1643871490.760365,
+        "timestamp": 1643871490.766175,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/offices1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "b6b64c4cf9ca47af",
+        "start_timestamp": 1643871490.760585,
+        "timestamp": 1643871490.76639,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/equipment1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "abf0cba9cabb010b",
+        "start_timestamp": 1643871490.76079,
+        "timestamp": 1643871490.7664201,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/material.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "826fc7b3498fb22a",
+        "start_timestamp": 1643871490.76101,
+        "timestamp": 1643871490.76651,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/places1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a13ed4fdc652b42e",
+        "start_timestamp": 1643871490.7613,
+        "timestamp": 1643871490.766535,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/images/sidenav_icon/bp1.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "bc24d1d113fc2a4f",
+        "start_timestamp": 1643871490.76152,
+        "timestamp": 1643871490.7665899,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css",
+        "op": "resource.link",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "ad8e877fa0e11823",
+        "start_timestamp": 1643871490.87421,
+        "timestamp": 1643871490.8814049,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css",
+        "op": "resource.link",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "91d89a09824f74ff",
+        "start_timestamp": 1643871490.87731,
+        "timestamp": 1643871490.88453,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css",
+        "op": "resource.link",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "be899ff41c4ebc9b",
+        "start_timestamp": 1643871490.879835,
+        "timestamp": 1643871490.88694,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css",
+        "op": "resource.link",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "bc7186309218d77b",
+        "start_timestamp": 1643871490.88148,
+        "timestamp": 1643871490.887785,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css",
+        "op": "resource.link",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "973aa170c45f7e1f",
+        "start_timestamp": 1643871490.88277,
+        "timestamp": 1643871490.943155,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet@1.6.0/dist/leaflet.js",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "9ace3cda2a7024bd",
+        "start_timestamp": 1643871490.884335,
+        "timestamp": 1643871490.8938851,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://maps.googleapis.com/maps/api/js?key=AIzaSyAQmxZajncBdPsgaOZhrmf-AUuqPFn73JI",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "9aac2504f9f9d893",
+        "start_timestamp": 1643871490.98373,
+        "timestamp": 1643871490.98901,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet.gridlayer.googlemutant@latest/dist/Leaflet.GoogleMutant.js",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "9b2245d2027a87f0",
+        "start_timestamp": 1643871491.006155,
+        "timestamp": 1643871491.072305,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a7836ab858bea005",
+        "start_timestamp": 1643871491.08189,
+        "timestamp": 1643871491.094645,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/live_tacking_icon/bell_blue.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a8012c4d4a64429a",
+        "start_timestamp": 1643871491.275785,
+        "timestamp": 1643871491.2783,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/shipment_icon/no-gps.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "ac8f52fa140deea7",
+        "start_timestamp": 1643871491.277005,
+        "timestamp": 1643871491.28095,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/shipment_icon/destination.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a04ab54343544671",
+        "start_timestamp": 1643871491.277385,
+        "timestamp": 1643871491.281915,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/live_tacking_icon/share.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "89ebd35d5d8f13fb",
+        "start_timestamp": 1643871491.277735,
+        "timestamp": 1643871491.28195,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/shipment_icon/gps_ic.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a110542204800fa3",
+        "start_timestamp": 1643871491.27818,
+        "timestamp": 1643871491.2824898,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/shipment_icon/current_location_gps.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "83ec168bba145982",
+        "start_timestamp": 1643871491.27852,
+        "timestamp": 1643871491.28252,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/Icons/deopdown.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a7c1411e795048eb",
+        "start_timestamp": 1643871491.27886,
+        "timestamp": 1643871491.2829251,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/shipment_icon/planned_shipment.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "913eeea3a0847ee6",
+        "start_timestamp": 1643871491.27916,
+        "timestamp": 1643871491.283125,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/shipment_icon/Maintenance.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "93d7159034f91749",
+        "start_timestamp": 1643871491.280375,
+        "timestamp": 1643871491.283145,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "/assets/shipment_icon/available-active.svg",
+        "op": "resource.img",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a982f8b16af02533",
+        "start_timestamp": 1643871491.28071,
+        "timestamp": 1643871491.28317,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://cdnjs.cloudflare.com/ajax/libs/leaflet-editable/1.2.0/Leaflet.Editable.js",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "9edd068ea555722b",
+        "start_timestamp": 1643871491.34703,
+        "timestamp": 1643871491.351095,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "9cfd8efbd3329083",
+        "start_timestamp": 1643871491.41362,
+        "timestamp": 1643871491.41777,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a9d4cd756ec086b4",
+        "start_timestamp": 1643871491.42355,
+        "timestamp": 1643871491.4282098,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js",
+        "op": "resource.script",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "b8811057ff83bef4",
+        "start_timestamp": 1643871491.43304,
+        "timestamp": 1643871491.49683,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/fullscreen.png",
+        "op": "resource.css",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "a2e056a09756cf9d",
+        "start_timestamp": 1643871491.552165,
+        "timestamp": 1643871491.55521,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      },
+      {
+        "data": {
+          "Transfer Size": 0,
+          "Encoded Body Size": 0,
+          "Decoded Body Size": 0
+        },
+        "description": "https://unpkg.com/leaflet@1.6.0/dist/images/layers.png",
+        "op": "resource.css",
+        "parent_span_id": "9c8638e03e74f07c",
+        "span_id": "ba6f38a771993edf",
+        "start_timestamp": 1643871491.565605,
+        "timestamp": 1643871491.56876,
+        "trace_id": "3e7499ac58ca495ba57809aafcf03149"
+      }
+    ],
+    "start_timestamp": 1643871490.7182248,
+    "tags": {
+      "finishReason": "idleTimeout",
+      "effectiveConnectionType": "4g",
+      "deviceMemory": "8",
+      "hardwareConcurrency": "8"
+    },
+    "timestamp": 1643871491.56876,
+    "transaction": "/tracknet/live-tracking",
+    "type": "transaction",
+    "platform": "javascript",
+    "event_id": "b0fb353f46e94178b3dc94542415a872",
+    "environment": "prod",
+    "release": "1.0.800",
+    "sdk": {
+      "integrations": [
+        "InboundFilters",
+        "FunctionToString",
+        "TryCatch",
+        "Breadcrumbs",
+        "GlobalHandlers",
+        "LinkedErrors",
+        "Dedupe",
+        "UserAgent",
+        "BrowserTracing"
+      ],
+      "name": "sentry.javascript.angular",
+      "version": "6.16.1",
+      "packages": [
+        {
+          "name": "npm:@sentry/angular",
+          "version": "6.16.1"
+        }
+      ]
+    },
+    "extra": {
+      "OrgId": "495b8728-c761-4fa7-83fe-db75a7d63221",
+      "OrgName": "Demo Account",
+      "MobileNumber": "7876308393"
+    },
+    "user": {
+      "email": "dhimanpradeep@gmail.com",
+      "id": "a0a838f0-2758-4c0c-ae90-6e3338242bae",
+      "username": "Pradeep"
+    },
+    "breadcrumbs": [
+      {
+        "timestamp": 1643871399.837,
+        "category": "navigation",
+        "data": {
+          "from": "/tracknet/manageOrganisation",
+          "to": "/tracknet/manageOrganisation"
+        }
+      },
+      {
+        "timestamp": 1643871399.852,
+        "category": "console",
+        "data": {
+          "arguments": ["subscribing to frontend message "],
+          "logger": "console"
+        },
+        "level": "log",
+        "message": "subscribing to frontend message "
+      },
+      {
+        "timestamp": 1643871399.899,
+        "category": "console",
+        "data": {
+          "arguments": ["called"],
+          "logger": "console"
+        },
+        "level": "log",
+        "message": "called"
+      },
+      {
+        "timestamp": 1643871400.073,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/users/v1/user/authorize",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.113,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/organisations/v1/organisation/user-org-acl",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.119,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/users/v1/user?key=uuid&value=a0a838f0-2758-4c0c-ae90-6e3338242bae&expandAll=true",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.124,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/users/v1/sessions",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.134,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/organisations/v1/organisation?key=uuid&value=495b8728-c761-4fa7-83fe-db75a7d63221&expandAll=true",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.152,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/authorization-manager/domain-permission/v2/enabled/modules",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.158,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/authorization-manager/roles/v1/roles/page?limit=50&offset=0&isCount=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.164,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/authorization-manager/roles/v1/roles/page?limit=50&offset=0&isCount=true",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.17,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/users/v1/invitation/for-org",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.183,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/authorization-manager/roles/v1/default/organisation/roles",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.187,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/authorization-manager/roles/v1/default-role?portalType=basic",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.191,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/settings/v1/settings/modules?type=GOOGLE_MAP_KEY&modules=ORGANISATION",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.214,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/announcements/v1/announcement/headlines?link=test.fretron.com",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.222,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/organisations/v1/typeahead/paging?size=50&page=1&excludeImage=true",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.234,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/organisations/v1/admin/organisation?key=uuid&value=495b8728-c761-4fa7-83fe-db75a7d63221&expandAll=true",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.306,
+        "category": "xhr",
+        "data": {
+          "method": "POST",
+          "url": "https://apis.fretron.com/organisations/v1/organisation/filtered/members?limit=25&offset=0&count=true",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.32,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/organisations/v1/organisation?key=uuid&value=undefined&expandAll=true",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.345,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://api-js.mixpanel.com/decide/?verbose=1&version=3&lib=web&token=a4bf4d5fa7cea59c358190c458e5c043&distinct_id=17ebe1a57d11c2-018c202c5ad5e3-317c0e5e-100200-17ebe1a57d230c&ip=1&_=1643871400248",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.35,
+        "category": "console",
+        "data": {
+          "arguments": ["token recieved for push notification"],
+          "logger": "console"
+        },
+        "level": "log",
+        "message": "token recieved for push notification"
+      },
+      {
+        "timestamp": 1643871400.354,
+        "category": "console",
+        "data": {
+          "arguments": ["subscribing to frontend message "],
+          "logger": "console"
+        },
+        "level": "log",
+        "message": "subscribing to frontend message "
+      },
+      {
+        "timestamp": 1643871400.431,
+        "category": "xhr",
+        "data": {
+          "method": "POST",
+          "url": "https://apis.fretron.com/users/v1/user/session/pushtoken",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.432,
+        "category": "console",
+        "data": {
+          "arguments": [
+            {
+              "data": null,
+              "error": "Error setting pushToken",
+              "status": 400
+            }
+          ],
+          "logger": "console"
+        },
+        "level": "log",
+        "message": "[object Object]"
+      },
+      {
+        "timestamp": 1643871400.766,
+        "category": "xhr",
+        "data": {
+          "method": "POST",
+          "url": "https://apis.fretron.com/organisations/v1/organisation/filtered/members?limit=50&offset=0",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871400.913,
+        "category": "sentry.transaction",
+        "event_id": "175a1327ae3b4ea4881270d94cca1fdc",
+        "message": "175a1327ae3b4ea4881270d94cca1fdc"
+      },
+      {
+        "timestamp": 1643871404.884,
+        "category": "xhr",
+        "data": {
+          "method": "POST",
+          "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1643871404771",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871404.89,
+        "category": "xhr",
+        "data": {
+          "method": "POST",
+          "url": "https://api-js.mixpanel.com/engage/?verbose=1&ip=1&_=1643871404775",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871410.117,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871420.15,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871430.097,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871440.2,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871450.097,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871460.093,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871460.147,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/announcements/v1/announcement/headlines?link=test.fretron.com",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871470.09,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871480.092,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871490.089,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/notification-manager/event/v1/notifications/count?isRead=false",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871490.705,
+        "category": "ui.click",
+        "message": "mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color"
+      },
+      {
+        "timestamp": 1643871490.839,
+        "category": "navigation",
+        "data": {
+          "from": "/tracknet/manageOrganisation",
+          "to": "/tracknet/live-tracking"
+        }
+      },
+      {
+        "timestamp": 1643871490.954,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/authorization-manager/domain-permission/v2/permission?module=Live%20Tracking",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871491.111,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://apis.fretron.com/fleet-manager/v1/dashBoard/fleets?filters=%7B%22gpsState%22%3A%5B%5D%2C%22status%22%3A%5B%5D%2C%22trackingVia%22%3A%5B%5D%2C%22deviceType%22%3A%5B%5D%2C%22groups%22%3A%5B%5D%2C%22searchText%22%3A%22%22%2C%22alertTypes%22%3A%5B%5D%2C%22vehicleBranch%22%3A%5B%5D%2C%22vehicleRegion%22%3A%5B%5D%2C%22vehicleZone%22%3A%5B%5D%2C%22isDelayed%22%3Afalse%7D",
+          "status_code": 200
+        },
+        "type": "http"
+      },
+      {
+        "timestamp": 1643871491.338,
+        "category": "xhr",
+        "data": {
+          "method": "GET",
+          "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+          "status_code": 200
+        },
+        "type": "http"
+      }
+    ],
+    "request": {
+      "url": "https://test.fretron.com/tracknet/live-tracking",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"
+      }
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "event": "Live Tracking status Selected",
+        "properties": {
+            "$os": "Linux",
+            "$browser": "Chrome",
+            "$current_url": "https://test.fretron.com/tracknet/live-tracking",
+            "$browser_version": 80,
+            "$screen_height": 768,
+            "$screen_width": 1366,
+            "mp_lib": "web",
+            "$lib_version": "2.44.0",
+            "$insert_id": "nmd5ibmlfrnq21pm",
+            "time": 1643873732.028,
+            "distinct_id": "17ebe1a57d11c2-018c202c5ad5e3-317c0e5e-100200-17ebe1a57d230c",
+            "$device_id": "17ebe1a57d11c2-018c202c5ad5e3-317c0e5e-100200-17ebe1a57d230c",
+            "$initial_referrer": "$direct",
+            "$initial_referring_domain": "$direct",
+            "$user_id": "Pradeep(7876308393)",
+            "category": "Live Tracking",
+            "token": "a4bf4d5fa7cea59c358190c458e5c043"
+        }
+    }
+]

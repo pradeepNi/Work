@@ -1,0 +1,7 @@
+logistics
+shipment
+consignement
+consigner
+consignee
+survice provider
+supply chain (imp)
